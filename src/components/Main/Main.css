@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.main .main-text{
+    width: 480px;
+}
+
+.main .main-text h1 {
+    padding-top: 86px;
+    margin-bottom: 32px;
+    font-size: 64px;
+    color: #8Bac3e;
+}
+.main .main-text p {
+    font-size: 18px;
+    margin-bottom: 32px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.main .main-text .btn-gray{
+    margin-left: 16px;
+}
+
+.main .main-img {
+    position: relative;
+}
+.main .main-img .img-info {
+    position: absolute;
+    bottom: 46px;
+    left: -23%;
+    width: 292px;
+    height: 93px;
+    background: #FFFFFFBD;
+    border-radius: 16px;
+    display: flex;
+    gap: 20px;
+    padding: 12px 23px 22px;
+    h3 {
+        font-size: 14px;
+    }
+    p {
+        color: #757575;
+        padding: 10px 0;
+        font-size: 12px;
+    }
+}
+
+.main .main-img img {}
